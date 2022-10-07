@@ -17,5 +17,5 @@ class CSV_Pandas:
         # before finding the more efficient way
         self.df["Yearly Oil Production (barrels per day)"] = new_oil_production_data
         self.df["Population"] = new_population_data
-        self.df.to_csv("New_Petrol_Dataset(20.06.2022).csv")
+        self.df.to_csv("New_Oil_Dataset(20.06.2022).csv")
         # Created a new CSV with appropriate title and added data
